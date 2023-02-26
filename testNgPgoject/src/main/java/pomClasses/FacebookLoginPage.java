@@ -10,6 +10,9 @@ public class FacebookLoginPage {
 	WebDriver driver;
 	WebDriverWait wait;
 	
+	//@FindBy(xpath="//input[@id='email']")
+	//private WebElement emailOrPhoneno;
+	
 	@FindBy(xpath="//input[@id='email']")
 	private WebElement emailOrPhoneno;
 	
