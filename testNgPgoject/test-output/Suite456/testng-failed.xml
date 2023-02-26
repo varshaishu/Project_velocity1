@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite456]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="OperaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="testNgPackage.TestNgClass2">
+        <methods>
+          <include name="loginPageofFacebook"/>
+          <include name="loginPageoFacebook"/>
+          <include name="createPomObjects"/>
+          <include name="launchtheBrowser"/>
+        </methods>
+      </class> <!-- testNgPackage.TestNgClass2 -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+</suite> <!-- Failed suite [Suite456] -->
